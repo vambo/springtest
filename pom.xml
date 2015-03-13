@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.springframework</groupId>
-	<artifactId>resttest</artifactId>
+	<artifactId>springtest</artifactId>
 	<version>0.1.0</version>
 	<packaging>war</packaging>
 	<properties>
@@ -12,7 +12,7 @@
 	</properties>
 
 	<build>
-		<finalName>resttest</finalName>
+		<finalName>springtest</finalName>
 	</build>
 
 	<parent>

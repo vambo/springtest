@@ -17,7 +17,6 @@ public class Application extends SpringBootServletInitializer {
 
 	
     public static void main(String[] args) {
-//        SpringApplication.run(applicationClass, args);
     	ApplicationContext ctx = SpringApplication.run(applicationClass, args);
 
         System.out.println("Let's inspect the beans provided by Spring Boot:");
@@ -28,8 +27,6 @@ public class Application extends SpringBootServletInitializer {
             System.out.println(beanName);
         }
     }
-    
-    
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
