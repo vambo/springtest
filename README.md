@@ -1,6 +1,7 @@
 # springtest
 Testing sprint boot and spring insight
 
+- Install and set up Java 8
 - Install latest STS 3.6.4
 - Install and set up latest maven (3.2.5)
 - Clone the source (git clone https://github.com/vambo/springtest.git)
